@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  const target = process.env.TARGET || "World";
+  const target = process.env.TARGET || 'Accenture';
   res.send(`Hello ${target}!`);
 });
 
