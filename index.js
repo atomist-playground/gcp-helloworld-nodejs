@@ -1,6 +1,7 @@
 const express = require("express");
 
 const app = express();
+const password = "123456";
 
 app.get("/", (req, res) => {
   const target = process.env.TARGET || "Accenture";
